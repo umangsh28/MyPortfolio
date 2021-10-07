@@ -21,6 +21,10 @@ html{
     scroll-behavior: smooth;
 }
 
+header .container NavBar{
+    color: var(--pure);
+}
+
 
 *{
     padding: 0;
@@ -74,7 +78,8 @@ header nav .left a:hover{
 
 
 header nav .left a{
-    color: var (--pure);
+    color: white;
+    background: transparent;
     text-decoration: none;
     margin-right: 1rem;
     text-transform: uppercase;
@@ -90,9 +95,9 @@ header nav .branding{
 
 
 .hero .left img{
-   width: 400px;
+   width: 420px;
    
-    height: 350px;
+    height: 400px;
     margin-top: -4rem;
     margin-bottom: 3rem;
 }
