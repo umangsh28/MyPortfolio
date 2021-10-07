@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,115 +10,196 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-
-        
-        <nav class="flex items-centers  justify-between">
-            <div class="left flex items-centers">
-                <div class="branding">
-                    <img src ="images/signature (2).png" alt="">
-                </div>
-               <div>
-                   <a href="#">Home </a>
-                   <a href="#">About Me</a>
-                   <a href="#">Project </a>
-                   <a href="#">Tech Stacks</a>
-                   
-               </div>
-            </div>
-            <div class="right">
-                <button class ="btn btn-primary">
-                    Contact Me
-                </button>
-            </div> 
-        </nav>
-
-        <div class="hero flex items-centers justify-between">
-            <div class="left flex-1 flex ">
-                <img src="./images/1633366877300-removebg-preview.png" alt="">
-
-            </div> 
-            <div class="right flex-1">
-                <h6>I'm Umang Sharma</h6>
-                <h1>A Full-Stack<span> Android Developer</span></h1>
-                <p>An ardent Full Stack Android Developer with a strong set of 
-                    technical as well as non-technical skills and a dedication towards creating useful and interactive
-                     android applications.</p>
-                <div>
-                    <button class ="btn btn-secondary">
-                        RESUME
-                    </button>  
-                </div>  
-            </div>
-        </div>
-   
-    </div>     
-    </header>
-    <section class="about">
-        <div class="container flex items-centers">
-            <div class="flex-1">
-                <img class="about-me-image" src="./images/about me.png" alt="">
-            </div>
-            <div class="flex-1">
-                <h1>About <span>Me</span></h1>
-                <p>
-                    Analytical and detail oriented Android app developer professional with stellar 
-                communication skills. Adept at bringing all team members together to reach a common goal on time and under budget.
-                 Conceptualizing app solutions with the latest technology, design theory, and a large dose of creativity.
-                </p>
-                <div class="social ">
-                    <a href="https://www.linkedin.com/in/umang-sharma-a89b95200/"><img src="./images/iconmonstr-linkedin-3.svg" alt=""></a>
-                    <a href="https://github.com/umangsh28"><img src="./images/iconmonstr-github-1.svg" alt=""></a>
-                    <a href="https://im.mrstark08@gmail.com"><img src="./images/iconmonstr-gmail-1.svg" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="project">
-        <div class="container">
-            <h1 class="section-heading">Projects</h1>
-            <div class="card-wrapper">
-                <div class="card">
-                    <img src="./images/amazon-prime-seeklogo.com.svg" alt="">
-                    <h2>Amazon Prime Clone</h2>
-                    <p>An android application to watch movies & tv shows.
-                        Features: 
-                        Voice Search, 
-                         User authentication, 
-                         Find Section for Search Movies by genre, 
-                         Implementation of WatchList & Share option.
-                        </p>
-                </div>
-                <div class="card">
-                    <img src="./images/okcupids.png" alt="">
-                    <h2>OkCupid Clone|</h2>
-                    <p>An android dating application that connects people based on mutually shared interests.
-                        Features:
-                        Implementation of swipe left to match, or right to pass
-                        Interest Percentage bar for a better Match
-                        Social Sign-in/Sign-up.                        
-                        </p>
-                </div>
-                <div class="card">
-                    <img src="./images/uptimelogo.png" alt="">
-                    <h2>Amazon Prime Clone</h2>
-                    <p>An android application to read and hear books.
-                        Features: 
-                         Search any books, 
-                         User authentication, 
-                         Implemented Audio Book , 
-                         
-                        </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button id="ham" class="hamburger">
+            <img src="./images/Hamburger_icon.svg.png" alt="">
+        </button>
+        <div id="mobile-nav" class="mobile-nav">
+            <button class="times"><img src="./images/iconmonstr-x-mark-1.svg" alt=""></button>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#tech">Tech Stacks</a></li>
+            </ul>
+        </div>
+    
+        <header>
+            <div class="container">
+    
+            
+            <nav id="main-nav" class="flex items-centers  justify-between">
+                <div class="left flex items-centers">
+                    <div class="branding">
+                        <img src ="images/signature (2).png" alt="">
+                    </div>
+                   <div>
+                       <a href="#">Home </a>
+                       <a href="#about">About Me</a>
+                       <a href="#project">Project </a>
+                       <a href="#tech">Tech Stacks</a>
+                       
+                   </div>
+                </div>
+                <div class="right">
+                    <button class ="con btn btn-primary">
+                       <a href="#contact">Contact Me</a> 
+                    </button>
+                </div> 
+            </nav>
+    
+            <div class="hero flex items-centers justify-between">
+                <div class="left flex-1 flex ">
+                    <img src="./images/umangR.png" alt="">
+    
+                </div> 
+                <div class="right flex-1">
+                    <h6>I'm Umang Sharma</h6>
+                    <h1>A Full-Stack<span> Android Developer</span></h1>
+                    <p>An ardent Full Stack Android Developer with a strong set of 
+                        technical as well as non-technical skills and a dedication towards creating useful and interactive
+                         android applications.</p>
+                    <div>
+                        <button class =" Re btn btn-secondary">
+                            <a href="https://drive.google.com/file/d/13C84cLvDgPvxfyVr0kU2C8rYn0ZtAFzP/view?usp=sharing">RESUME</a>
+                        </button>  
+                    </div>  
+                </div>
+            </div>
+       
+        </div>     
+        </header>
+        <section id="about" class="about">
+            <div class="container flex items-centers about-inner-wrap">
+                <div class="flex-1 ">
+                    <img class="about-me-image" src="./images/about me.png" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <p>
+                        Analytical and detail oriented Android app developer professional with stellar 
+                    communication skills. Adept at bringing all team members together to reach a common goal on time and under budget.
+                     Conceptualizing app solutions with the latest technology, design theory, and a large dose of creativity.
+                    </p>
+                    <div class="social ">
+                        <a href="https://www.linkedin.com/in/umang-sharma-a89b95200/"><img src="./images/iconmonstr-linkedin-3.svg" alt=""></a>
+                        <a href="https://github.com/umangsh28"><img src="./images/iconmonstr-github-1.svg" alt=""></a>
+                        <a href="https://im.mrstark08@gmail.com"><img src="./images/iconmonstr-gmail-1.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="project" class="project">
+            <div class="container">
+                <h1 class="section-heading">PROJECTS</h1>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/amazon-prime-seeklogo.com.svg" alt="">
+                        <h1>Amazon Prime Clone</h1>
+                        <p>An android application to watch movies & tv shows.
+                            Features: 
+                            Voice Search, 
+                             User authentication, 
+                             Find Section for Search Movies by genre, 
+                             Implementation of WatchList & Share option.
+                            </p>
+                            <button class=" Amazon btn-project btn-secondary ">
+                                <a href="https://github.com/chekeAditya/Amazon-Prime">Github</a> 
+                            </button>
+                    </div>
+                    <div class="card ">
+                        <img src="./images/OKCupid_Logo (3).svg" alt="">
+                        <h1>OkCupid Clone</h1>
+                        <p>An android dating application that connects people based on mutually shared interests.
+                            Features:
+                            Implementation of swipe left to match, or right to pass
+                            Interest Percentage bar for a better Match
+                            Social Sign-in/Sign-up.                        
+                            </p>
+                            <button class="Okcupid btn-project btn-secondary">
+                                <a href="https://github.com/douglesoo7/Ok-Cupid_Review-Updated/tree/master">Github</a> 
+                            </button>
+                    </div>
+                    <div class="card ">
+                        <img  src="./images/uptimelogoo.jpg" alt="">
+                        <h1>UpTime Clone</h1>
+                        <p>An android application to read and listen books whenever user wants.
+                            Features: 
+                              Search any books, 
+                              User authentication, 
+                              Implemented Audio Book,
+                              gif's background for attractive look.
+                            </p>
+                            <button class="Uptime btn-project btn-secondary">
+                               <a href="https://github.com/umangsh28/UpTime">Github</a> 
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="tech" class="techstack">
+            <h1>TECH STACK</h1>
+            <p>CoreJava       AndroidStudio    Kotlin       SQL    DataStructure     Git   
+            </p>
+            <div class=" container flex-1 items-centers">
+                <img src="./images/javaLogo.png" alt="">
+                <img src="./images/Android_Studio_Icon_3.6.svg.png" alt="">
+                <img src="./images/Kotlin_(programming_language)-Logo.wine (1).svg" alt="">
+                <img src="./images/pngegg.png" alt="">
+                <img src="./images/ds.png" alt="">
+                <img src="./images/gitLogo.png" alt="">
+            </div>
+            <p>RoomDataBase       Dagger/Hilt    JetPackCompose        MVVM       
+            </p>
+            <div class=" container flex-1 items-centers">
+                <img src="./images/android_database_room.png" alt="">
+                <img src="./images/Dagger (1).jpg" alt="">
+                <img class="jet" src="./images/ajet.png" alt="">
+            </div>
+    
+        </section>
+    
+        <section id="contact" class="contacts">
+            <div class="container">
+                <h1 class="section-heading"> Contact <span> Me </span></h1>
+                <h2 class="section-heading">In case of any query feel free to reach out to me</h2>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/iconmonstr-smartphone-4.svg" alt="">
+                        <h2>Call Me On</h2>
+                        <h6>+918303974159</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/iconmonstr-gmail-1.svg" alt="">
+                        <h2>E-Mail Me On</h2>
+                        <h6>im.mrstark08@gmail.com</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/iconmonstr-map-5.svg" alt="">
+                        <h2>Location</h2>
+                        <h6>Kanpur,Uttar Pradesh</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <footer>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/umang-sharma-a89b95200/"><img src="./images/iconmonstr-linkedin-3.svg" alt=""></a>
+                <a href="https://github.com/umangsh28"><img src="./images/iconmonstr-github-1.svg" alt=""></a>
+                <a href="https://im.mrstark08@gmail.com"><img src="./images/iconmonstr-gmail-1.svg" alt=""></a>
+            </div>
+            <div class="copyright">
+                Customized by Umang Sharma.
+            </div>
+        </footer>
+    </div>
     
 </body>
 </html>
